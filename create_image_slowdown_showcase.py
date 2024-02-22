@@ -190,7 +190,7 @@ class Main():
             print('FPS: %.1f' % (fps))
 
         try:
-            self.canvas.delete('!keep')
+            self.canvas.delete('all')
         except tk._tkinter.TclError as e: # this means you exited the game
             # raise e
             quit()
